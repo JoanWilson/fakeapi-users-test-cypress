@@ -1,0 +1,15 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Implementando testes de api com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Joan Wilson",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
