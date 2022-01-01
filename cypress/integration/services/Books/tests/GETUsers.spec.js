@@ -5,6 +5,8 @@ describe('GET Users', () => {
         GETUsers.allUsers().should((response) =>{
             expect(response.status).to.eq(200)
             expect(response.body).to.be.not.null
+            let bodyRes = response.body
+            cy.log(bodyRes)
         })
     });
 })
